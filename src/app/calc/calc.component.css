@@ -1,0 +1,63 @@
+.button {
+    background-color: rgba(7, 1, 1, 0.794);
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(246, 248, 249);
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    height: 1900px;
+    width: 1900px;
+    position: fixed;
+}
+
+p{
+    color: white;
+}
+
+.button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px #ffffff;
+    border:1px solid white;
+}
+
+.total-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.container {
+    width: 500px;
+    height:630px;
+    background-color: #323232;
+    margin-top: 10%;
+    box-shadow: 0px 0px 10px;
+    transform: skew(50deg ,-20deg );
+    border-radius:30px;
+}
+
+.display {
+    text-align: left;
+    height: 100%;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+h1{
+    color: white;
+}
+#equalto {
+    background-color: #0f6818;
+}
+
+#operator {
+    color: #fff700;
+}
+
+

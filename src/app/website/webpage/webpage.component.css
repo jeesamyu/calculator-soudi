@@ -1,0 +1,169 @@
+header{
+  padding:12px 0;
+  height: 350px;
+  overflow: hidden;
+  background-color: #32a2be;
+  z-index: 2;
+  
+}
+
+
+.menu{
+ margin-top: 10px;
+}
+
+.menu ul{
+  padding: 0;
+  margin:0;
+
+}
+.image{
+  background-image: url("https://www.vision2030.gov.sa/media/pexjcopy/invest-01.jpg");
+  height:450px ; 
+  margin-top: -14px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: 0;
+ 
+  
+}
+
+.menu ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 24px;
+  font-size: 17px;
+  margin-top: 70px;
+  
+
+}
+.menu ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  z-index: 99;
+
+}
+.menu ul li a:hover{
+  color: #e9c62c;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+nav{
+  background-color: #e9e7e7;
+  margin-top: 5px;
+  height: 40px;
+  padding: 5px 15px;
+  
+}
+
+nav a{
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.hello ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  color: #464545;
+  font-size: 20px;
+ 
+}
+.hello ul li a:nth-child(1){
+  margin-left: 50px;
+ 
+}
+.hello ul li a:hover{
+  color: #e9c62c;
+}
+
+.mt-5 li{
+  display: inline;
+  
+}
+
+
+.btn:nth-child(1){
+  margin-top: 50px;
+}
+.btn:nth-child(2){
+  margin-top: 50px;
+}
+
+hr.headhr{
+  border-top:1px solid white;
+}
+
+
+
+@media(max-width: 785px){
+  body{
+    overflow: hidden;
+  }
+.menu{
+  position: fixed;
+  position: absolute;
+  right: -380px;
+  top:340px;
+  width: 380px;
+  height: 100%;
+  background: #32a2be;
+  line-height: 50px;
+  transition: 0.4s ease-in-out;
+
+}
+.menu ul li {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 10px 0 10px 26px;
+
+}
+.menu_icon{
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  right: 20px;
+}
+
+
+.menu_icon span {
+  width: 32px;
+  height: 3px;
+  background: #ffffff;
+  display: block;
+  transition: 0.2s ease-in-out;
+
+}
+.menu_icon span:nth-child(2) {
+  margin: 4px 0;
+
+}
+.menu_iconClass span:nth-child(2){
+
+display: none;
+}
+
+.menu_iconClass span:nth-child(1){
+
+  transform: rotate(40deg);
+}
+
+
+.menu_iconClass span:nth-child(3){
+
+  transform: rotate(-40deg);
+  margin-top: -3px;
+}
+
+.menuClasse{
+
+right: 0;
+transition: 0.4s ease-in-out;
+
+}
+}
+
+
